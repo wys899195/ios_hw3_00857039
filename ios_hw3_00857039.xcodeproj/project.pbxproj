@@ -11,6 +11,11 @@
 		3BC904AC2923720000797976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC904AB2923720000797976 /* ContentView.swift */; };
 		3BC904AE2923720A00797976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC904AD2923720A00797976 /* Assets.xcassets */; };
 		3BC904B12923720A00797976 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC904B02923720A00797976 /* Preview Assets.xcassets */; };
+		3BC904BA2923729800797976 /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC904B92923729800797976 /* GlobalVar.swift */; };
+		3BC904BD292373D900797976 /* editTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC904BC292373D900797976 /* editTaskView.swift */; };
+		3BC904C2292373ED00797976 /* TaskFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC904C1292373ED00797976 /* TaskFormView.swift */; };
+		3BC904C6292376BD00797976 /* addTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC904C5292376BD00797976 /* addTaskView.swift */; };
+		3BC904D82923ADA300797976 /* Hanzipen_bold.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3BC904D72923ADA300797976 /* Hanzipen_bold.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		3BC904AD2923720A00797976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC904B02923720A00797976 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BC904B22923720A00797976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC904B92923729800797976 /* GlobalVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		3BC904BC292373D900797976 /* editTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editTaskView.swift; sourceTree = "<group>"; };
+		3BC904C1292373ED00797976 /* TaskFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormView.swift; sourceTree = "<group>"; };
+		3BC904C5292376BD00797976 /* addTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskView.swift; sourceTree = "<group>"; };
+		3BC904D72923ADA300797976 /* Hanzipen_bold.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hanzipen_bold.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				3BC904A82923720000797976 /* ios_hw3_00857039 */,
-				3BC904A72923720000797976 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,13 +56,20 @@
 				3BC904A62923720000797976 /* ios_hw3_00857039.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3BC904A82923720000797976 /* ios_hw3_00857039 */ = {
 			isa = PBXGroup;
 			children = (
+				3BC904D72923ADA300797976 /* Hanzipen_bold.ttc */,
 				3BC904A92923720000797976 /* ios_hw3_00857039App.swift */,
+				3BC904B92923729800797976 /* GlobalVar.swift */,
 				3BC904AB2923720000797976 /* ContentView.swift */,
+				3BC904C5292376BD00797976 /* addTaskView.swift */,
+				3BC904BC292373D900797976 /* editTaskView.swift */,
+				3BC904C1292373ED00797976 /* TaskFormView.swift */,
+				3BC904A72923720000797976 /* Products */,
 				3BC904AD2923720A00797976 /* Assets.xcassets */,
 				3BC904B22923720A00797976 /* Info.plist */,
 				3BC904AF2923720A00797976 /* Preview Content */,
@@ -126,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC904D82923ADA300797976 /* Hanzipen_bold.ttc in Resources */,
 				3BC904B12923720A00797976 /* Preview Assets.xcassets in Resources */,
 				3BC904AE2923720A00797976 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC904AC2923720000797976 /* ContentView.swift in Sources */,
+				3BC904C6292376BD00797976 /* addTaskView.swift in Sources */,
+				3BC904C2292373ED00797976 /* TaskFormView.swift in Sources */,
+				3BC904BD292373D900797976 /* editTaskView.swift in Sources */,
+				3BC904BA2923729800797976 /* GlobalVar.swift in Sources */,
 				3BC904AA2923720000797976 /* ios_hw3_00857039App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
